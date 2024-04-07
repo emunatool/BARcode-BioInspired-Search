@@ -2,9 +2,9 @@
 
 Welcome to BARcode (Biological Analogy Retriever), a search engine for biologically inspired design (BID). BARcode is introduced in the paper titled "Imitation of Life: A Search Engine for Biologically Inspired Design" presented at the AAAI 2024 conference. This project addresses the challenges of finding relevant biological solutions for real-world engineering challenges.
 
-Paper: https://arxiv.org/abs/2312.12681
-Authors: Hen Emuna, Nadav Borenstein, Xin Qian, Hyeonsu Kang, Joel Chan, Aniket Kittur, Dafna Shahaf
-Conference: The 38th Annual AAAI Conference on Artificial Intelligence (AAAI 2024)
+This repository contains the code for the paper: https://arxiv.org/abs/2312.12681 </br>
+Authors: Hen Emuna, Nadav Borenstein, Xin Qian, Hyeonsu Kang, Joel Chan, Aniket Kittur, Dafna Shahaf </br>
+Conference: The 38th Annual AAAI Conference on Artificial Intelligence (AAAI 2024) </br>
 
 ## About Biomimicry
 
@@ -42,7 +42,7 @@ To get started with BARcode, follow these steps:
 
 4. **Download Additional Files**: 
    - Download the necessary files from [Google Drive](https://drive.google.com/drive/folders/14lnFvnvY7VfgEc1obbSzo0PdlZYo0FIM?usp=sharing).
-   - Unzip the files from the folder named "BARcode_search_engine_LFs".
+   - Unzip the files from the folder named "BARcode-BioInspired-Search_large_files".
    - Place the downloaded files into the corresponding folders within the cloned repository. For instance, move files from the unzipped "BARcode-BioInspired-Search" folder's "BARcode_search_engine" subfolder to the "BARcode_search_engine" folder in the repository.
 
 **Note**: To use the "Extracting_phrases" module, copy the entire folder named "Extracting_phrases" into the main directory of the repository.
@@ -68,11 +68,13 @@ The output of BARcode is a CSV file containing four columns: "rank weighted scor
 **Note**
 Running BARcode for the first time may require initial setup time for configuring the embeddings.
 
-**Possible Errors Due to Deprecated Models**:
+#### Possible Errors Due to Deprecated Models:
 
 When running the code, you may encounter errors related to deprecated models. One common error is:
 
-### AttributeError: module 'numpy' has no attribute 'int'
+```
+AttributeError: module 'numpy' has no attribute 'int'
+```
 
 This error may occur due to changes in the way certain data types are handled in newer versions of dependencies.
 
@@ -89,7 +91,7 @@ To resolve this error, follow these steps:
 ## Citation
 
 If you use BARcode in your research or projects, we kindly request that you cite the following paper:
-
+```
 @inproceedings{emuna2024imitation,
   title={Imitation of Life: A Search Engine for Biologically Inspired Design},
   author={Emuna, Hen and Borenstein, Nadav and Qian, Xin and Kang, Hyeonsu and Chan, Joel and Kittur, Aniket and Shahaf, Dafna},
@@ -99,4 +101,4 @@ If you use BARcode in your research or projects, we kindly request that you cite
   pages={503--511},
   year={2024}
 }
-
+```
