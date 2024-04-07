@@ -2,7 +2,7 @@
 
 Welcome to BARcode (Biological Analogy Retriever), a search engine for biologically inspired design (BID). BARcode is introduced in the paper titled "Imitation of Life: A Search Engine for Biologically Inspired Design" presented at the AAAI 2024 conference. This project addresses the challenges of finding relevant biological solutions for real-world engineering challenges.
 
-This repository contains the code for the paper: https://arxiv.org/abs/2312.12681
+Paper: https://arxiv.org/abs/2312.12681
 Authors: Hen Emuna, Nadav Borenstein, Xin Qian, Hyeonsu Kang, Joel Chan, Aniket Kittur, Dafna Shahaf
 Conference: The 38th Annual AAAI Conference on Artificial Intelligence (AAAI 2024)
 
